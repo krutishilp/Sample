@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-property-file-demo/src/main/java/dara.properties&apos; to &apos;data.properties&apos;" description="Rename resource &apos;dara.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/dara.properties" name="data.properties" stamp="1599808456095" updateReferences="true"/>
+</session>

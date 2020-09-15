@@ -1,0 +1,13 @@
+package com.zensar.spring.service;
+
+import com.zensar.spring.beans.Product;
+
+public class ProductServiceImpl1 implements ProductService {
+
+	@Override
+	public int insertProduct(Product product) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

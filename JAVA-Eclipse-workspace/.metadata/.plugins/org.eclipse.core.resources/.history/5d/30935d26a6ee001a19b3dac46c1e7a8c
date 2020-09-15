@@ -1,0 +1,36 @@
+package com.zensar.productmanagement.service;
+
+import com.zensar.productmanagement.beans.Product;
+import com.zensar.productmanagement.repository.ProductRepository;
+import com.zensar.productmanagement.repositoryprovider.RepositoryProvider;
+
+public class ProductServiceImpl implements ProductService {
+	ProductRepository pr = RepositoryProvider.provideService();
+
+	public int acceptProduct(String productName, int productCost) {
+		return pr.insertProduct(new Product(productName, productCost));
+	}
+
+	public Product[] getAllProducts() {
+		return pr.getAllProducts();
+	}
+
+	public Product getProduct(int productId) {
+		return pr.getProduct(productId);
+	}
+
+	public boolean deleteProduct(int productId) {
+		return pr.deleteProduct(productId);
+	}
+
+	public boolean validateUser(int userId, String userPassword) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public int registerUser(String userName, long userContact, String userAddress, String userPassword) {
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.zensar.hibernate.client;
+
+import org.hibernate.cfg.Configuration;
+
+import com.zensar.hibernate.entity.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Employee employee=new Employee(1001,"Krutishil",50000);
+		
+		Configuration configuration=null;
+	}
+
+}

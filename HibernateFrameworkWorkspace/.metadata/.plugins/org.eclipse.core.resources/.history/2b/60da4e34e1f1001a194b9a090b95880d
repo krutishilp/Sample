@@ -1,0 +1,7 @@
+package com.zensar.hibernate.entity;
+
+public class WageEmployee extends Employee {
+
+	private int hour;
+	private int rate;
+}

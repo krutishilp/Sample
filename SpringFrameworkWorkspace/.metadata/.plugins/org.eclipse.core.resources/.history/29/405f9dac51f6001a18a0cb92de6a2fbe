@@ -1,0 +1,13 @@
+package com.zensar.spring.repository;
+
+import com.zensar.spring.beans.Product;
+
+public class ProductRepositoryImpl1 implements ProductRepository {
+
+	@Override
+	public int insertProduct(Product product) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,2 @@
+service.provider=com.zensar.productmanagement.service.ProductServiceImpl
+repository.provider=com.zensar.productmanagement.repository.ProductRepositoryImpl

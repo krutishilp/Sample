@@ -1,0 +1,9 @@
+package com.zensar.DAO;
+
+import com.zensar.model.Coupon;
+
+public class CouponDAO {
+	public Coupon createProduct() {
+		
+	}
+}

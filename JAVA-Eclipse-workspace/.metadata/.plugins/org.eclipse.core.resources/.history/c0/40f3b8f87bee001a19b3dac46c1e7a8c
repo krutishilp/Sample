@@ -1,0 +1,10 @@
+<html>
+<body>
+<h2>Welcome to Coupon and Product App</h2>
+<pre>
+<a href='createCoupon.jsp'>Create Coupon</a>
+<a href='findCoupon.jsp'>find Coupon</a>
+<a href='createProduct.jsp'>Create Product</a>
+</pre>
+</body>
+</html>

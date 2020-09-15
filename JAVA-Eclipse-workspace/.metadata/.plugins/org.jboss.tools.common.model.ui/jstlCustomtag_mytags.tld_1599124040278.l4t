@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/jstlCustomtag/src/main/webapp/WEB-INF/mytags.tld">
+ <TreeFormPage>
+  <Memento type="FileTLD_2_1">
+   <Memento collapsed="false" type="Tag Library Description"/>
+   <Memento collapsed="false" type="Defined Tags"/>
+  </Memento>
+  <Memento type="FileTLD_1_2">
+   <Memento type="Tag Library Description"/>
+   <Memento type="Defined Tags"/>
+  </Memento>
+  <Memento type="%No text%">
+   <Memento type="Listeners"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

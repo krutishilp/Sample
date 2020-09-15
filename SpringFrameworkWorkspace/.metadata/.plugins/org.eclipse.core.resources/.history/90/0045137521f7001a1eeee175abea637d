@@ -1,0 +1,23 @@
+package com.zensar.spring.repository;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.zensar.spring.beans.Product;
+@Repository
+public class ProductRepositoryImpl2 implements ProductRepository {
+
+	@Override
+	public int insertProduct(Product product) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Product> getAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

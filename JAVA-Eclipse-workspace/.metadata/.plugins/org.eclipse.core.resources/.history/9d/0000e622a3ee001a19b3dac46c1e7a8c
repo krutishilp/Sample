@@ -1,0 +1,18 @@
+package com.zensar.productmanagement.repository;
+
+import com.zensar.productmanagement.beans.Product;
+import com.zensar.ticket_management.beans.User;
+
+public interface ProductRepository {
+	boolean validateUser(int userId, String userPassword);
+
+	int registerUser(User user, String userPassword);
+
+	int insertProduct(Product productObj);
+
+	Product[] getAllProducts();
+
+	Product getProduct(int productId);
+
+	boolean deleteProduct(int productId);
+}

@@ -1,0 +1,23 @@
+package com.zensar.DAO;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class ProductDAO {
+
+	public Product createProduct(Product product) {
+		try {
+			PreparedStatement preparedStatement = con.prepareStatement("insert into coupons(couponName,couponDiscount,couponEXPDate) values(?,?,?)");
+			preparedStatement.setString(1,coupon.getCouponCode());
+			preparedStatement.setBigDecimal(2, coupon.getCouponDiscount());
+			preparedStatement.setString(3, coupon.getCouponEXPDate());
+			
+			preparedStatement.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return coupon;
+	}
+}

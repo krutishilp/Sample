@@ -1,0 +1,44 @@
+package com.zensar.spring.repository;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.zensar.spring.beans.Product;
+@Repository
+public class ProductRepositoryImpl2 implements ProductRepository {
+
+	@Autowired
+	private NamedParameterJdbcTemplate template;
+	@Override
+	public int insertProduct(Product product) {
+	
+		String sql="insert into product values(:productId,:productName,:productCost)";
+		
+		Map<String,Product> map=new HashMap<String,Product>();
+		map.put(("productId",product.getProductId());
+		template.execute(sql, map, action)
+		
+		return 0;
+	}
+
+	@Override
+	public List<Product> getAllProducts() {
+		return template.query("select * from product", new RowMapper<Product>() {
+
+			@Override
+			public Product mapRow(ResultSet rs, int rowNum) throws SQLException {
+				
+				return new Product(rs.getInt(1), rs.getString(2),rs.getInt(3));
+			}
+		});
+	}
+
+}

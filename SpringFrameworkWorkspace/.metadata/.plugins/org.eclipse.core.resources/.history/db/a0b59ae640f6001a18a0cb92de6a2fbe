@@ -1,0 +1,10 @@
+package com.zensar.spring.beans;
+
+public class Rectangle implements Shapeable {
+
+	public String area() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

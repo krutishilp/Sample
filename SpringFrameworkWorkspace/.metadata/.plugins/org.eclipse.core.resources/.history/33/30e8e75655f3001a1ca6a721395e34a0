@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean id="student" class="com.zensar.spring.beans.Student">
+		<constructor-arg><value>10</value></constructor-arg>
+		<constructor-arg><value>"Krutishil"</value></constructor-arg>
+		<constructor-arg><value>100</value></constructor-arg>
+		<constructor-arg ref="address"></constructor-arg>
+		
+	</bean>
+
+	<bean id="address" class="com.zensar.spring.beans.Address">
+		<property name="pinCode" value="422215"></property>
+		<property name="city" value="Nashik"></property>
+		<property name="state" value="Maharashtra"></property>
+	</bean>
+
+</beans>

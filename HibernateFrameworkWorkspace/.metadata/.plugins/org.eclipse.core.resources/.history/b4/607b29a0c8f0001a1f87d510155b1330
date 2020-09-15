@@ -1,0 +1,5 @@
+package com.zensar.hibernate.entity;
+
+public class Employee {
+
+}

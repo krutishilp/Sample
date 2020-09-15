@@ -1,0 +1,22 @@
+1599216133287	Rename package 'com.zensar.order.processing.beans'
+1599216433374	Rename package 'com.zensar.order.processing.beans'
+1599216455063	Rename package 'com.zensar.order.processing.exceptions'
+1599216471955	Rename package 'com.zensar.order.processing.jdbc'
+1599216480638	Rename package 'com.zensar.order.processing.repository'
+1599216490991	Rename package 'com.zensar.order.processing.repositoryprovider'
+1599216499990	Rename package 'com.zensar.order.processing.service'
+1599216512718	Rename package 'com.zensar.order.processing.serviceprovider'
+1599216524026	Rename package 'com.zensar.orderprocessing.view'
+1599216676094	Move compilation unit
+1599217034079	Delete elements
+1599217078626	Delete elements
+1599217087076	Delete elements
+1599217111251	Delete element
+1599217117830	Delete element
+1599217136590	Delete elements
+1599217459370	Rename package 'com.zensar.productmanagement.view'
+1599217560992	Delete element
+1599219968107	Delete element
+1599226964567	Move 'productNotFoundError.html' to 'webapp'
+1599228787784	Move 'productDeleteSuccess.html' to 'webapp'
+1599232597168	Move 'index.jsp' to 'webapp'

@@ -1,0 +1,22 @@
+package com.zensar.productmanagement.service;
+
+import com.zensar.productmanagement.beans.Order;
+import com.zensar.productmanagement.exceptions.NegativePriceException;
+import com.zensar.productmanagement.exceptions.NegativeQuantityException;
+import com.zensar.productmanagement.exceptions.OrderNotFoundException;
+
+public interface OrderService {
+
+	int placeOrder(String orderName, double orderPrice, int orderQuantity, String orderDate)
+			throws NegativePriceException, NegativeQuantityException;
+
+	Order[] displayAllOrders();
+
+	Order getOrder(int orderId) throws OrderNotFoundException;
+
+	Order updateOrder(int orderId,double orderPrice,int orderQuantity) throws OrderNotFoundException;
+
+	boolean deleteOrder(int orderId) throws OrderNotFoundException;
+	
+	int updateParticularOrder(int orderId,String orderName,double orderPrice,int orderQuantity,String orderDate) throws OrderNotFoundException;
+}

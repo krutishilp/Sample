@@ -1,0 +1,26 @@
+package com.zensar.productmanagement.service;
+
+import com.zensar.productmanagement.beans.Product;
+import com.zensar.productmanagement.repository.ProductRepository;
+import com.zensar.productmanagement.repository.ProductRepositoryImpl;
+
+public class ProductServiceImpl implements ProductService {
+	ProductRepository pr = new ProductRepositoryImpl();
+
+	public int acceptProduct(String productName, int productCost) {
+		return pr.insertProduct(new Product(productName, productCost));
+	}
+
+	public Product[] getAllProducts() {
+		return pr.getAllProducts();
+	}
+
+	public Product getProduct(int productId) {
+		return pr.getProduct(productId);
+	}
+
+	public boolean deleteProduct(int productId) {
+		return pr.deleteProduct(productId);
+	}
+
+}

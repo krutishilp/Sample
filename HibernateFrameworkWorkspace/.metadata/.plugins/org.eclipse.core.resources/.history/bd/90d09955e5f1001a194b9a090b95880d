@@ -1,0 +1,15 @@
+package snippet;
+
+public class Snippet {
+	<id name="employeeId" column="id"></id>
+			<property name="employeeName" column="name"></property>
+			<property name="employeeSalary" column="salary"></property>
+			<discriminator column="dtype" type="string"></discriminator>
+	
+			<subclass name="com.zensar.hibernate.entity.WageEmployee"
+				discriminator-value="wageemp">
+				<property name="hour"></property>
+				<property name="rate"></property>
+			</subclass>
+}
+

@@ -1,0 +1,5 @@
+package com.zensar.spring.service;
+
+public interface ProductService {
+
+}

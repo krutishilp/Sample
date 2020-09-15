@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update an Order</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+
+<style type="text/css">
+.container {
+	width: 40%;
+	align-items: center;
+}
+</style>
+</head>
+<body class="jumbotron">
+	<div class="container">
+		<div>
+			<h2>Update an Order</h2>
+		</div>
+		<form action="updateOrder" method="post">
+	
+			<div class="form-group">
+				<label for="orderid">Order Id</label> <input type="number"
+					class="form-control" id="orderid" placeholder=""
+					name="orderId" required="required">
+			</div>
+
+			<div class="form-group">
+				<label for="orderprice">Order Price</label> <input type="number"
+					class="form-control" id="orderprice" placeholder=""
+					name="orderPrice" required="required">
+			</div>
+
+			<div class="form-group">
+				<label for="orderquantity">Order Quantity</label> <input
+					type="number" class="form-control" id="orderquantity"
+					placeholder="" name="orderQuantity" required="required">
+			</div>
+
+
+			<div class="form-group">
+				<input type="submit" class="btn btn-primary" id="ordername"
+					placeholder="" name="orderName">
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>

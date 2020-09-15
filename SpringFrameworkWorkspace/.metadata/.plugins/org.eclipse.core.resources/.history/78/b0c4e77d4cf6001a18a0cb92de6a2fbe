@@ -1,0 +1,6 @@
+package com.zensar.spring.service;
+
+public interface ProductService {
+
+	int insertProduct(Product product);
+}

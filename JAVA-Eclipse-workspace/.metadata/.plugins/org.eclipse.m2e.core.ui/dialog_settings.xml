@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\jstl\src\main\webapp\index.jsp"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\jspActionElements\src\main\webapp\userInfo.jsp"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\jsp-project\src\main\webapp\login.jsp"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\sessionexample\src\main\webapp\index.jsp"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\webapp-maven"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\MyFirstProject"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\web-application\src\com\zensar\servlet\MyServlet.java"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\web-application"/>
+			<item value="D:\Zensar_FullStack Training\JAVA\JAVA-Eclipse-workspace\product-management"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="nexusIndexer"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.zensar.productmanagement"/>
+			<item value="com.zensar.productmanagement_webapp"/>
+			<item value="com.zensar.coupanandproduct.coupanandproductproject"/>
+			<item value="com.zensar.web"/>
+			<item value="com.zensar.web.jstl"/>
+			<item value="com.zensar.web.jspActionElements"/>
+			<item value="com.zensar.jsp_project"/>
+			<item value="com.zensar.webapp"/>
+			<item value="com.zensar.sessionexample"/>
+			<item value="com.zensar.ticket_managementwebapp"/>
+			<item value="com.zensar.ticketmanagementwebapp"/>
+			<item value="com.zensar.ticket_management"/>
+			<item value="com.zensar.testproject"/>
+			<item value="com.zensar.order.processing"/>
+			<item value="com.zensar.webapp_maven"/>
+		</list>
+		<list key="groupId">
+			<item value="com.zensar"/>
+			<item value="com.zensar.coupanandproduct"/>
+			<item value="com.zensar.web"/>
+			<item value="com.zensar.order.processing"/>
+		</list>
+		<list key="artifactId">
+			<item value="productmanagement"/>
+			<item value="productmanagement-webapp"/>
+			<item value="coupanandproductproject"/>
+			<item value="jstlCustomtag"/>
+			<item value="jstl"/>
+			<item value="jspActionElements"/>
+			<item value="jsp-project"/>
+			<item value="webapp-layersproject"/>
+			<item value="sessionexample"/>
+			<item value="ticket-management-webapp"/>
+			<item value="ticket_management-webapp"/>
+			<item value="ticket_management"/>
+			<item value="test-project"/>
+			<item value="order-processing"/>
+			<item value="webapp-maven"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="org.apache.maven.archetypes"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="maven-archetype-webapp"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.0"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,29 @@
+package com.zensar.DAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.zensar.model.Coupon;
+import com.zensar.util.ConnectionProvider;
+
+public class CouponDAO {
+	public Coupon createProduct(Coupon coupon) {
+		Connection con=ConnectionProvider.getConnection();
+		try {
+			PreparedStatement preparedStatement = con.prepareStatement("insert into coupons(couponName,couponDiscount,couponEXPDate) values(?,?,?)");
+			preparedStatement.setString(1,coupon.getCouponCode());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return coupon;
+		
+	}
+	
+	public Coupon findProduct() {
+		return null;
+		
+	}
+}

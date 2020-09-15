@@ -1,0 +1,21 @@
+package com.zensar.DAO;
+
+import java.sql.Connection;
+
+import com.zensar.model.Coupon;
+import com.zensar.util.ConnectionProvider;
+
+public class CouponDAO {
+	public Coupon createProduct(Coupon coupon) {
+		Connection con=ConnectionProvider.getConnection();
+		con.prepareStatement("insert into coupons(couponName,couponDiscount,couponEXPDate) values(?,?,?)");
+		
+		return coupon;
+		
+	}
+	
+	public Coupon findProduct() {
+		return null;
+		
+	}
+}

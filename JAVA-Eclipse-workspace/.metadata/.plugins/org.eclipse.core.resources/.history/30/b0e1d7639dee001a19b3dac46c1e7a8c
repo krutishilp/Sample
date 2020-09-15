@@ -1,0 +1,8 @@
+package com.zensar.productmanagement.exceptions;
+
+public class NegativeQuantityException extends Exception {
+
+	public NegativeQuantityException(String msg) {
+		super(msg);
+	}
+}

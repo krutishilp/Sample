@@ -1,0 +1,11 @@
+package com.zensar.productmanagement.service;
+
+import com.zensar.productmanagement.beans.Product;
+
+public interface ProductService {
+
+	public int acceptProduct(String productName, int productCost);
+	Product[] getAllProducts();
+	Product getProduct(int productId);
+	boolean deleteProduct(int productId);
+}

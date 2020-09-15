@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>TestServlet</servlet-name>
+		<display-name>TestServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.testproject.testservlet.TestServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PlaceOrderServlet</servlet-name>
+		<display-name>PlaceOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.PlaceOrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DisplayAllOrderServlet</servlet-name>
+		<display-name>DisplayAllOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.DisplayAllOrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetOrderServlet</servlet-name>
+		<display-name>GetOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.GetOrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteOrderServlet</servlet-name>
+		<display-name>DeleteOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.DeleteOrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateOrderServlet</servlet-name>
+		<display-name>UpdateOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.UpdateOrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteParticularOrderServlet</servlet-name>
+		<display-name>DeleteParticularOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.DeleteParticularOrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateParticularOrderServlet</servlet-name>
+		<display-name>UpdateParticularOrderServlet</display-name>
+		<description></description>
+		<servlet-class>com.zensar.orderprocessing.view.UpdateParticularOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PlaceOrderServlet</servlet-name>
+		<url-pattern>/placeOrder</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DisplayAllOrderServlet</servlet-name>
+		<url-pattern>/displayAllOrders</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetOrderServlet</servlet-name>
+		<url-pattern>/getOrder</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteOrderServlet</servlet-name>
+		<url-pattern>/deleteOrder</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateOrderServlet</servlet-name>
+		<url-pattern>/updateOrder</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteParticularOrderServlet</servlet-name>
+		<url-pattern>/deleteParticularOrder</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateParticularOrderServlet</servlet-name>
+		<url-pattern>/updateParticularOrder</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book Ticket</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<style type="text/css">
+.container {
+	width: 35%;
+	align-content: center;
+}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<form action="bookTicket" method="post">
+			<h2 class="text-center">Book Ticket</h2>
+
+			<div class="form-group">
+				<label for="passname">Passenger Name:</label> <input type="text"
+					class="form-control" name="passengerName" id="passname" required
+					placeholder="Please Enter your Name">
+			</div>
+
+			<div class="form-group">
+				<label for="passcontact">Passenger Contact Number:</label> <input
+					type="text" class="form-control" name="passengerContact"
+					id="passcontact" required placeholder="Please Enter your Name">
+			</div>
+
+			<div class="form-group">
+				<label for="passengeraddress">Passenger Address:</label> <input
+					type="text" class="form-control" name="passengerAddress"
+					id="passengeraddress" required placeholder="Please Enter your Name">
+			</div>
+
+			<div class="form-group">
+				<label for="start">Start Location</label> <select
+					name="startLocation" class="form-control" id="start">
+					<option value="Nashik">Nashik</option>
+					<option value="Pune">Pune</option>
+					<option value="Mumbai">Mumbai</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="destination">Destination Location</label> <select
+					name="destinationLocation" class="form-control" id="destination">
+					<option value="Nashik">Nashik</option>
+					<option value="Pune">Pune</option>
+					<option value="Mumbai">Mumbai</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="traveldate">Travel Date:</label> <input type="date"
+					class="form-control" name="travelDate" id="traveldate" required>
+			</div>
+			
+			<div class="form-group">
+			<h5><b>Ticket Prices:</b></h5>
+					<p>		Nashik --> Pune   (Rs.500)</p>
+					<p>		Nashik --> Mumbai (Rs.400)</p>
+					<p>		Pune   --> Nashik (Rs.500)</p>
+					<p>		Pune   --> Mumbai (Rs.600)</p>
+					<p>		Mumbai --> Nashik (Rs.400)</p>
+					<p>		Mumbai --> Pune   (Rs.600)</p>
+				<label for="makepayment">Make Payment:</label> <input type="number"
+					class="form-control" name="paymentAmount" id="makepayment" required>
+					
+			</div>
+
+
+			<div class="text-center">
+				<input type="submit" class="btn btn-primary" value="Book Ticket">
+				<a class="btn btn-secondary text-primary" href="welcome.html">Cancel and Back</a>
+			</div>
+		</form>
+	</div>
+
+
+
+</body>
+</html>

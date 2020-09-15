@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;webapp-maven&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     success.html&#x0D;&#x0A;     register.html&#x0D;&#x0A;     registerSuccess.html&#x0D;&#x0A;     registerError.html&#x0D;&#x0A;     error.html&#x0D;&#x0A;     index.jsp" description="Copy files" element1="src/main/webapp/success.html" element2="src/main/webapp/register.html" element3="src/main/webapp/registerSuccess.html" element4="src/main/webapp/registerError.html" element5="src/main/webapp/error.html" element6="src/main/webapp/index.jsp" files="6" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1598700171031" target="/ticket-management-webapp/src/main/webapp" units="0" version="1.0"/>
+</session>

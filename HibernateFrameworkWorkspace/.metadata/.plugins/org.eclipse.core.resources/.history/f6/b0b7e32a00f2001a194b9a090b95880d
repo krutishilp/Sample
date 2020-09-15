@@ -1,0 +1,7 @@
+package snippet;
+
+public class Snippet {
+	<property name="employeeName"></property>
+			<property name="employeeSalary"></property>
+}
+
