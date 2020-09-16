@@ -1,9 +1,18 @@
 package com.zensar.spring.beans;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
+
+@Component
+@PropertySource("studentData.properties")
 public class Student {
 
+	@Value("${studentId}")
 	private int studentId;
+	@Value("${studentName}")
 	private String studentName;
+	@Value("${studentMarks}")
 	private int studentMarks;
 
 	public Student() {

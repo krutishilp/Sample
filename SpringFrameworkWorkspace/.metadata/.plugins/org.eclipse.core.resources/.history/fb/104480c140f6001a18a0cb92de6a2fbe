@@ -1,6 +1,0 @@
-package com.zensar.spring.beans;
-
-public interface Shapeable {
-
-	public double area();
-}
