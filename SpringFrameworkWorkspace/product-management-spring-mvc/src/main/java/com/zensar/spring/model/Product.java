@@ -1,9 +1,13 @@
 package com.zensar.spring.model;
 
+import javax.validation.constraints.Min;
+
 public class Product {
 
+	
 	private int productId;
 	private String productName;
+	@Min(value = 1000 ,message ="productCost Must be Greater than 1000")
 	private int productCost;
 
 	public Product() {

@@ -80,10 +80,10 @@ public class ProductRepositoryImpl2 implements ProductRepository {
 		});
 
 	}
-
+	
 	public int insertProduct(Product product) {
 		Random rand = new Random();
-		int productId = rand.nextInt(1000);
+		int productId = rand.nextInt(700);
 		product.setProductId(productId);
 		String sql = "insert into product values(:productId,:productName,:productCost)";
 

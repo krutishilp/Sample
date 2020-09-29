@@ -1,0 +1,1 @@
+insert into product (product_cost, product_name, product_id) values (800000, "TV", 1);

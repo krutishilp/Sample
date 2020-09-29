@@ -1,12 +1,15 @@
 package com.zensar.spring.controllers;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.zensar.spring.model.Product;
 import com.zensar.spring.service.ProductService;
@@ -49,8 +52,19 @@ public class ProductController {
 	 * return "insertProduct"; }
 	 */
 
-	@RequestMapping("/insertProduct")
-	public String insertProduct(@ModelAttribute Product product) {
+	@RequestMapping(value="/insertProduct")
+	public String insertProduct(@Valid @ModelAttribute("product") Product product, BindingResult res) {
+		// int a=10/0;
+		String s = "NullPointerException";
+		/*
+		 * if (s.equalsIgnoreCase("ArithmeticException")) { throw new
+		 * ArithmeticException(); } else if (s.equalsIgnoreCase("NullPointerException"))
+		 * { throw new NullPointerException(); }
+		 */
+		if (res.hasErrors()) {
+			return "productInfo";
+		}
+
 		int result = productService.acceptProduct(product);
 		if (result >= 100) {
 			return "insertProduct";
@@ -80,13 +94,13 @@ public class ProductController {
 	@RequestMapping("/getProductById")
 	public String getProductById(@RequestParam("productId") int productId, Model model) {
 		Product product = productService.getProduct(productId);
-		if(product!=null) {
+		if (product != null) {
 			model.addAttribute(product);
 			return "displayProductById";
-		}else {
+		} else {
 			return "getProduct";
 		}
-		
+
 	}
 
 	@RequestMapping("/productDelete")
@@ -114,7 +128,7 @@ public class ProductController {
 	@RequestMapping("/updateProd")
 	public String prodUpdate(@ModelAttribute Product product) {
 		boolean updateProduct = productService.updateProduct(product);
-		System.out.println(product.getProductId()+" "+product.getProductName());
+		System.out.println(product.getProductId() + " " + product.getProductName());
 		if (updateProduct) {
 			return "updateProductSuccess";
 		} else {

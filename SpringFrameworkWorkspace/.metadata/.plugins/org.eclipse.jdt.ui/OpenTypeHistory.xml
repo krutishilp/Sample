@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=product-management-spring-mvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zensar.spring.service{ProductService.java[ProductService" modifiers="513" timestamp="1600410350217"/>
-<typeInfo handle="=product-management-spring-mvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zensar.spring.repository{ProductRepository.java[ProductRepository" modifiers="513" timestamp="1600410169703"/>
+<typeInfo handle="=product-web-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zensar.webservice.service{ProductService.java[ProductService" modifiers="513" timestamp="1600838609570"/>
+<typeInfo handle="=product-web-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zensar.webservice.repository{ProductRepository.java[ProductRepository" modifiers="513" timestamp="1600838604403"/>
+<typeInfo handle="=product-web-service/C:\/Users\/USER\/.m2\/repository\/org\/yaml\/snakeyaml\/1.26\/snakeyaml-1.26.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.yaml=/=/maven.artifactId=/snakeyaml=/=/maven.version=/1.26=/=/maven.scope=/compile=/&lt;org.yaml.snakeyaml.parser(Production.class[Production" modifiers="1536" timestamp="1600680899320"/>
 </typeInfoHistroy>
