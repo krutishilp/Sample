@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.zensar.order.processing.service.OrderServiceImpl"/>
-<fullyQualifiedTypeName name="com.zensar.order.processing.exceptions.OrderNotFoundException"/>
-<fullyQualifiedTypeName name="com.zensar.order.processing.exceptions.NegativeQuantityException"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="com.zensar.order.processing.repository.OrderRepository"/>
 <fullyQualifiedTypeName name="com.zensar.order.processing.repositoryprovider.OrderRepositoryProvider"/>
 <fullyQualifiedTypeName name="com.zensar.order.processing.jdbc.ConnectionProvider"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="com.zensar.productmanagement.beans.User"/>
 <fullyQualifiedTypeName name="com.zensar.productmanagement.serviceprovider.ServiceProvider"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>

@@ -25,6 +25,17 @@ public class Test {
 		 * catch (IOException e) { // TODO Auto-generated catch block
 		 * e.printStackTrace(); }
 		 */
+
+		boolean b=false;
+        do{
+            
+            if(b=!b){
+                System.out.println(1);
+                continue;
+            }
+            System.out.println(2);
+        }while(b);
+		
 	}
 
 }

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-<fullyQualifiedTypeName name="org.hibernate.Session"/>
-<fullyQualifiedTypeName name="org.hibernate.HibernateException"/>
-<fullyQualifiedTypeName name="com.zensar.spring.beans.Product"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="com.zensar.spring.config.SpringConfig"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.ViewResolver"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedNativeQuery"/>
+<fullyQualifiedTypeName name="io.swagger.annotations.SwaggerDefinition"/>
+<fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+<fullyQualifiedTypeName name="io.swagger.models.Contact"/>
+<fullyQualifiedTypeName name="springfox.documentation.schema.Collections"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.Contact"/>
 </qualifiedTypeNameHistroy>

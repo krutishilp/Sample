@@ -2,7 +2,11 @@ package com.zensar.webservice.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -17,10 +21,14 @@ import com.zensar.webservice.beans.Product;
 import com.zensar.webservice.service.ProductService;
 
 @RestController
+@CacheConfig(cacheNames = "products") //cacheing in Spring
 public class ProductController {
 
 	@Autowired
 	private ProductService service;
+
+	//Logging in Spring 
+	private Logger logger = LoggerFactory.getLogger(ProductController.class);
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public String sayHello() {
@@ -29,7 +37,9 @@ public class ProductController {
 
 	// @RequestMapping(value = "/products", method = RequestMethod.GET)
 	@GetMapping("/products")
+	@Cacheable()
 	public List<Product> getAllProducts() {
+		logger.warn("Get All Products Method");
 		return service.getAllProducts();
 	}
 
@@ -58,9 +68,10 @@ public class ProductController {
 	public Product updateProduct(@PathVariable("productId") int productId, @RequestBody Product updatedProduct) {
 		return service.updateProduct(productId, updatedProduct);
 	}
+
 	@GetMapping("/products/name/{productName}")
 	public List<Product> getProductByName(@PathVariable String productName) {
 		return service.getProductByName(productName);
 	}
-	
+
 }

@@ -1,9 +1,0 @@
-package com.zensar.model;
-
-public class Coupon {
-	private int couponId;
-	private String couponCode;
-	private BigDecimal couponDiscount;
-	private String couponEXPDate;
-	
-}

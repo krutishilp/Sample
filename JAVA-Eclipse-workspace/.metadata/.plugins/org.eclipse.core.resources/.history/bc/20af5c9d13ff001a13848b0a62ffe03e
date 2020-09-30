@@ -1,0 +1,31 @@
+package com.zensar.practice.client;
+
+import com.zensar.practice.beans.Address;
+import com.zensar.practice.beans.WageEmployee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Address address = new Address(10, "Shree Apartment", "Vani-Pimpalgoan Road");
+		// Employee employee=new Employee(1001,"Krutishil",address);
+		WageEmployee employee1 = WageEmployee.getInstance();//Singltone Design Pattern
+		System.out.println(employee1);
+		WageEmployee employee2 = WageEmployee.getInstance();
+		System.out.println(employee2);
+		/*
+		 * WageEmployee employee=new WageEmployee(1001, "Krutishil",address,10,1000);
+		 * ObjectOutputStream oos=null; System.out.println(employee);
+		 * 
+		 * try { oos=new ObjectOutputStream(new FileOutputStream("employee.ser"));
+		 * oos.writeObject(employee);
+		 * System.out.println("Serialization Successful....."); } catch
+		 * (FileNotFoundException e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); } catch (IOException e) { // TODO Auto-generated catch
+		 * block e.printStackTrace(); }finally { try { if(oos!=null) { oos.close(); } }
+		 * catch (IOException e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); }
+		 */
+
+	}
+
+}

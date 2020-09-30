@@ -1,5 +1,7 @@
 package com.zensar.webservice.beans;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.NamedNativeQuery;
@@ -8,7 +10,7 @@ import javax.persistence.NamedQuery;
 @Entity
 //@NamedQuery(name = "Product.giveMeProducts",query = "from Product p where p.productName=?1")
 //@NamedNativeQuery(name = "Product.giveMeProducts",query = "select * from product where product_name=?1")
-public class Product {
+public class Product implements Serializable{
 	@Id
 	private int productId;
 	private String productName;

@@ -1,7 +1,0 @@
-package com.zensar.DAO;
-
-public class CouponDAO {
-	public Coupon createProduct() {
-		
-	}
-}
