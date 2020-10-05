@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Zensar_FullStack Training\JAVA\SpringFrameworkWorkspace\product-management-spring-annotation-db-by-BasicDataSource"/>
 			<item value="D:\Zensar_FullStack Training\JAVA\SpringFrameworkWorkspace\product-management-spring-annotation-db"/>
 			<item value="D:\Zensar_FullStack Training\JAVA\SpringFrameworkWorkspace\product-management-spring-annotation"/>
 			<item value="D:\Zensar_FullStack Training\JAVA\SpringFrameworkWorkspace\spring-mvc-webapp-xml-annotations"/>
@@ -29,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.zensar.ProductManagementApplication"/>
 			<item value="com.zensar.spring"/>
 			<item value="com.zensar.product_management_spring_mvc"/>
 			<item value="com.zensar.springdemo_maven"/>
@@ -37,6 +39,7 @@
 			<item value="com.zensar"/>
 		</list>
 		<list key="artifactId">
+			<item value="ProductManagementApplication"/>
 			<item value="spring-boot-helloworld-maven"/>
 			<item value="product-management-spring-mvc"/>
 			<item value="spring-mvc-javaConfig"/>
