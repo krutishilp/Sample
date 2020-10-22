@@ -6,8 +6,8 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
   
-  <!--  <bean id = "student" class = "com.zensar.spring.beans.Student" scope="singleton"> -->
-  <bean id = "student" class = "com.zensar.spring.beans.Student" scope="prototype">
+   <bean id = "student" class = "com.zensar.spring.beans.Student" scope="singleton">
+  <!-- <bean id = "student" class = "com.zensar.spring.beans.Student" scope="prototype"> -->
       <!-- collaborators and configuration for this bean go here -->
    </bean>
 

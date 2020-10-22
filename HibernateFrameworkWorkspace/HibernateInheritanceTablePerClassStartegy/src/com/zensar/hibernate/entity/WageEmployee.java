@@ -1,11 +1,10 @@
 package com.zensar.hibernate.entity;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-/*@Entity
-@Table(name="wageemployee")*/
+@Entity
+@Table(name="wageemployee")
 public class WageEmployee extends Employee {
 
 	private int hour;

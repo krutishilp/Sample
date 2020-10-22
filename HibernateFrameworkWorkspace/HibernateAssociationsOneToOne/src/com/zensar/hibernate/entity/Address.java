@@ -11,8 +11,8 @@ public class Address {
 	@Id
 	private int pinCode;
 
-	@OneToOne
-	private Employee employee;
+	//@OneToOne
+	//private Employee employee;
 	
 	
 	public Address() {
@@ -41,13 +41,11 @@ public class Address {
 		this.pinCode = pinCode;
 	}
 
-	public Employee getEmployee() {
-		return employee;
-	}
-
-	public void setEmployee(Employee employee) {
-		this.employee = employee;
-	}
+	/*
+	 * public Employee getEmployee() { return employee; }
+	 * 
+	 * public void setEmployee(Employee employee) { this.employee = employee; }
+	 */
 
 	@Override
 	public String toString() {

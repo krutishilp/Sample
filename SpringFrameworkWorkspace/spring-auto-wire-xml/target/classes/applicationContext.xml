@@ -6,7 +6,7 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 
-	<bean id="student" class="com.zensar.spring.beans.Student" autowire="constructor"> <!-- autowire='byName,byType,constructor' -->
+	<bean id="student" class="com.zensar.spring.beans.Student" autowire="byType"> <!-- autowire='byName,byType,constructor' -->
 		<property name="studentId" value="1001"></property>
 		<property name="studentName" value="Krutishil"></property>
 		<property name="studentMarks" value="95"></property>

@@ -1,14 +1,22 @@
 package com.zensar.hibernate.entity;
 
-/*@Entity
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.Table;
+
+@Entity
 @Table(name="employee")
-@Inheritance(strategy =InheritanceType.JOINED)*/
+@Inheritance(strategy =InheritanceType.JOINED)
 public class Employee {
-	//@Id
+	@Id
 	private int employeeId;
-	//@Column(name="name")
+	@Column(name="name")
 	private String employeeName;
-	//@Column(name="salary")
+	
+	@Column(name="salary")
 	private double employeeSalary;
 
 	public Employee() {

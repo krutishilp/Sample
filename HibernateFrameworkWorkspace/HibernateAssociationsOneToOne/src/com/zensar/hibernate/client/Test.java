@@ -31,7 +31,7 @@ public class Test {
 
 		Employee employee = new Employee(1002, "SK", 5000);
 		Address address=new Address("Maharashtra", 422215);
-		address.setEmployee(employee);
+		//address.setEmployee(employee);
 		employee.setAddress(address);
 		StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
 		Metadata meta = new MetadataSources(ssr).getMetadataBuilder().build();

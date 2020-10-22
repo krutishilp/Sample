@@ -1,5 +1,0 @@
-package com.zensar.hibernate.entity;
-
-public class WageEmployee extends Employee {
-
-}

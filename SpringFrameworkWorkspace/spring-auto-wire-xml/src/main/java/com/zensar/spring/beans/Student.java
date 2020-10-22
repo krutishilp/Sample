@@ -6,7 +6,7 @@ public class Student {
 	private String studentName;
 	private int studentMarks;
 	private Address address;
-	
+
 	public Student() {
 		super();
 		System.out.println("Inside Default Constructor of Student....");
@@ -61,7 +61,5 @@ public class Student {
 		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentMarks=" + studentMarks
 				+ ", address=" + address + "]";
 	}
-
-	
 
 }

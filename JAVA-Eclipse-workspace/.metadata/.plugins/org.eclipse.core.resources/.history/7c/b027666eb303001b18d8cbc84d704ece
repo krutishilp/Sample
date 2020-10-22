@@ -1,0 +1,13 @@
+package com.zensar.practice.client;
+
+public class App {
+
+	public static void main(String[] args) {
+		Greeting g=(a)->{System.out.println("Good Morning :) ::: "+a);};
+		g.greet(10);
+	}
+}
+
+interface Greeting {
+	void greet(int a);
+}

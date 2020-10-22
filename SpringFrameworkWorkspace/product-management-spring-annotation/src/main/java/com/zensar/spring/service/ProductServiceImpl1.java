@@ -10,8 +10,13 @@ import com.zensar.spring.repository.ProductRepositoryImpl1;
 @Service
 @Scope("prototype")
 public class ProductServiceImpl1 implements ProductService {
-	@Autowired
+	//@Autowired
 	private ProductRepository productRepositoryImpl;
+	@Autowired
+	public ProductServiceImpl1(ProductRepository productRepositoryImpl) {
+		super();
+		this.productRepositoryImpl = productRepositoryImpl;
+	}
 
 	@Override
 	public int insertProduct(Product product) {
@@ -21,9 +26,9 @@ public class ProductServiceImpl1 implements ProductService {
 	public ProductRepository getProductRepositoryImpl() {
 		return productRepositoryImpl;
 	}
-	//@Autowired
-	public void setProductRepositoryImpl(ProductRepository productRepositoryImpl) {
-		this.productRepositoryImpl = productRepositoryImpl;
-	}
-
+	/*
+	 * @Autowired public void setProductRepositoryImpl(ProductRepository
+	 * productRepositoryImpl) { this.productRepositoryImpl = productRepositoryImpl;
+	 * }
+	 */
 }

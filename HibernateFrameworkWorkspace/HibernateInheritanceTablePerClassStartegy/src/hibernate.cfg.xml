@@ -13,11 +13,11 @@
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">root</property>
 		<property name="hbm2ddl.auto">create</property>
-		<mapping resource="employee.hbm.xml" />
+		<!-- <mapping resource="employee.hbm.xml" /> -->
 		
-		<!-- <property name="hbm2ddl.auto">create</property>
-		<mapping class="com.zensar.hibernate.entity.Employee"/>
-		<mapping class="com.zensar.hibernate.entity.WageEmployee"/> -->
+		<!-- <property name="hbm2ddl.auto">create</property> -->
+		<!-- <mapping class="com.zensar.hibernate.entity.Employee"/> -->
+		<mapping class="com.zensar.hibernate.entity.WageEmployee"/>
 	</session-factory>
 
 </hibernate-configuration>

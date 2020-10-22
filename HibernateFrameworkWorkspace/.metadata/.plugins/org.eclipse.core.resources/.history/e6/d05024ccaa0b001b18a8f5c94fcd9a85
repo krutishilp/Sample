@@ -1,0 +1,27 @@
+package com.zensar.hibernateproject.entity;
+//by xml way
+public class Student {
+
+	private int studentId;
+	private String studentName;
+	private int studentAge;
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(int studentId, String studentName, int studentAge) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.studentAge = studentAge;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentAge=" + studentAge + "]";
+	}
+
+}

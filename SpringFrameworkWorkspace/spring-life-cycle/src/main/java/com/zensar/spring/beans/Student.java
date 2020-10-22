@@ -53,6 +53,6 @@ public class Student {
 	}
 	
 	public void myDestroyMethod() {
-		System.out.println("Inside public void myInitMethod()");
+		System.out.println("Inside public void myDestroyMethod()");
 	}
 }
